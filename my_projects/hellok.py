@@ -1,0 +1,8 @@
+print("this is from hellok")
+
+
+
+
+
+if __name__ == "__main__":
+    print("this is ")
