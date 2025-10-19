@@ -6,9 +6,4 @@ car3 = Car("ferrari",20003,"blue",True)
 
 
 
-print(car1.model)
-print(car1.year)
-print(car1.coulour)
-print(car1.for_sale)
-
-
+car1.stop()

@@ -5,4 +5,9 @@ class Car:
         self.coulour = colour
         self.for_sale = for_sale
 
+    def drive(self):
+        print(f"You drive the {self.model}")
+
+    def stop(self):
+        print(f"You stop the {self.model}")
 
