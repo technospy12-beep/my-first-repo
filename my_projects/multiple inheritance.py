@@ -1,4 +1,7 @@
-class prey:
+class animal:
+    
+
+  class prey:
     def flee(self):
         print(f"this animal is fleeing")
 
@@ -23,4 +26,4 @@ hawk = hawk()
 fish = Fish()
 
 
-hawk.hunt()
+fish.flee()
