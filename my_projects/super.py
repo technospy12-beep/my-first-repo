@@ -1,19 +1,31 @@
-class Circle:
-    def __init__(self,colour,filled,radius):
+class Shape:
+    def __init__(self,colour,is_filled,width):
         self.colour=colour
-        self.filled=filled
+        self.is_filled=is_filled
+
+
+
+class Circle(Shape):
+    def __init__(self,colour,is_filled,radius):
+        super().__init__(colour,is_filled)
+
         self.radius=radius
 
 
-class Square:
-    def __init__(self,colour,filled,width):
-        self.colour=colour
-        self.filled=filled
+class Square(Shape):
+    def __init__(self,colour,is_filled,width):
+        super().__init__(colour, is_filled)
+
         self.width=width
 
 
-class Triangle:
-    pass
+class Triangle(Shape):
+    def __init__(self, colour, is_filled, width, height):
+        super().__init__(colour, is_filled)
+
+        self.width = width
+        self.height = height
+
 
 
 
