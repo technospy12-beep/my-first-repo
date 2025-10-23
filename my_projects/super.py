@@ -1,5 +1,5 @@
 class Shape:
-    def __init__(self,colour,is_filled,width):
+    def __init__(self,colour,is_filled,):
         self.colour=colour
         self.is_filled=is_filled
 
@@ -28,4 +28,7 @@ class Triangle(Shape):
 
 
 
+circle = Circle("blue",True,5)
 
+
+print(circle.is_filled)
